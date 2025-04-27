@@ -45,9 +45,9 @@
 
 #define MPC_VERSION_MAJOR       1
 #define MPC_VERSION_MINOR       8
-#define MPC_VERSION_PATCH       4
+#define MPC_VERSION_PATCH       5
 
-#define MPC_VERSION_STATUS      0
+#define MPC_VERSION_STATUS      1
 // MPC_VERSION_STATUS: 0 - dev; 1 - stable
 
 #define MPC_YEAR_COMMENTS       "2002-2025"
@@ -56,7 +56,7 @@
 #ifndef ISPP_INVOKED
 
 #define MPC_COMP_NAME_STR       L"MPC-BE Team"
-#define MPC_COPYRIGHT_STR       L"Copyright © 2002-2025 all contributors, see Authors.txt"
+#define MPC_COPYRIGHT_STR       L"Copyright ï¿½ 2002-2025 all contributors, see Authors.txt"
 
 #define MPC_VERSION_FULL_NUM    MPC_VERSION_MAJOR,MPC_VERSION_MINOR,MPC_VERSION_PATCH,MPC_VERSION_REV
 #define MPC_VERSION_FULL_STR    MAKE_STR(MPC_VERSION_MAJOR) "." MAKE_STR(MPC_VERSION_MINOR) "." MAKE_STR(MPC_VERSION_PATCH) "." MAKE_STR(MPC_VERSION_REV)
